@@ -1,0 +1,366 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.layout {
+    width: 960px;
+    margin: auto
+}
+
+.navigationBar1 {
+
+    background-color: #1c8e99;
+    text-align: right;
+    height: 45px;
+    margin-top: 10px;
+    font-size: 0;
+    width: 980px;
+
+}
+
+
+
+.navigationBar1 a {
+    background: transparent;
+    color: white;
+    border-style: outset;
+    border-color: transparent;
+    font: 12px arial, sans-serif;
+    vertical-align: top;
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: 29px;
+    text-align: center;
+
+
+}
+
+.navigationBar1 a.line2 {
+    line-height: 16px;
+    padding-top: 2px;
+}
+
+
+.navigationBar1 a:hover {
+    background-color: #92c9ce;
+    margin-top: -5px;
+    line-height: 39px;
+}
+
+
+
+.navigationBar2 {
+
+    background-color: #660000;
+    text-align: left;
+    height: 45px;
+    margin-top: 0px;
+    font-size: 0;
+    width: 980px;
+}
+
+
+
+.navigationBar2 a {
+    background: transparent;
+    color: white;
+    border-style: outset;
+    border-color: transparent;
+    font: 12px arial, sans-serif;
+    vertical-align: top;
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: 29px;
+    text-align: center;
+
+
+}
+
+.navigationBar2 a.line2 {
+    line-height: 16px;
+    padding-top: 2px;
+}
+
+
+.navigationBar2 a:hover {
+    background-color: white;
+    color: #660000;
+    margin-top: -5px;
+    line-height: 39px;
+}
+
+.navigationBar2 a.line2:hover,
+nav a.active.line2 {
+    line-height: 16px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    color: #660000;
+}
+
+
+
+
+
+.logo {
+    position: absolute;
+    width: 194px;
+    height: 146px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+.banner {
+    width: 980px;
+    height: 300px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.main hr {
+    height: 10px;
+    background-color: #444;
+}
+
+.cabecalhoLv h2 {
+    color: #660000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: left;
+    clear: both;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    margin-right: 130px;
+}
+
+.cabecalhoLv.blue h2 {
+    color: #1b8e99;
+}
+
+.droneA {
+    float: right;
+    width: 125px;
+    height: 77px;
+    margin-bottom: -40px;
+}
+
+.produto {
+    border: 1px solid #1b8e99;
+    width: 300px;
+    height: 376px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.produto:last-child {
+    margin-right: 0;
+}
+
+.produto label {
+    background-color: #1b8e993d;
+    display: block;
+    margin: 2px;
+    text-align: center;
+    padding: 5px;
+    color: #1b8e99;
+    font-family: Tahoma;
+    font-size: 14px
+}
+
+.produto .desc {
+    text-align: left;
+    color: #1b8e99;
+    font-family: Tahoma;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.prdbody {
+    height: 279px
+}
+
+.price {
+    background-color: #1b8e99;
+    color: white;
+    font-family: Tahoma;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.price big {
+    font-size: 30px;
+    display: block;
+}
+
+.price img {
+    float: right;
+    background-color: white;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.produto:nth-child(even) {
+    border: 1px solid #660000;
+
+
+
+}
+
+.produto:nth-child(even) label {
+    color: #660000;
+    background-color: #6600003d;
+}
+
+.produto:nth-child(even) .price {
+    background-color: #660000;
+}
+
+.produto:nth-child(even) .desc {
+    color: #660000;
+}
+
+.serviço {
+    border: 1px solid #660000;
+    width: 300px;
+    height: 340px;
+    text-align: center;
+    display: inline-flex;
+    margin-right: 20px;
+    padding-bottom: 0px;
+
+}
+
+.serviço:last-child {
+    margin-right: 0;
+}
+
+.serviço label {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    color: #660000;
+    font-family: Tahoma;
+    font-size: 17px;
+    font-weight: 550;
+
+}
+
+.serviço .svdesc {
+    text-align: left;
+    color: #660000;
+    font-family: Tahoma;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.svprice {
+    background-color: #660000;
+    margin-top: px;
+    padding-bottom: 6px;
+}
+
+.svbody img {
+    width: 300px;
+
+}
+
+.svbody {
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.svpriceB {
+    background-color: #1b8e99;
+    margin-top: 34px;
+    padding-bottom: 6px;
+}
+
+.serviço:nth-child(even) {
+    border: 1px solid #1b8e99;
+
+
+
+}
+
+.serviço:nth-child(even) label {
+    color: #1b8e99;
+
+}
+
+
+
+.serviço:nth-child(even) .svdesc {
+    color: #1b8e99;
+}
+
+.imgDroneC {
+    padding-right: 180px;
+    width: 125px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+
+footer {
+    margin-top: 80px;
+
+}
+
+.bluebar {
+    background-color: #1b8e99;
+    width: 980px;
+    height: 96px;
+
+
+}
+
+.redbar {
+    background-color: #660000;
+    width: 980px;
+    height: 24px;
+    padding-top: 1px;
+    text-align: right
+}
+
+.redbar p {
+    margin-top: 0px;
+    padding-right: 100px;
+    color: white;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.bluebar p {
+    margin-top: -50px;
+    color: white;
+    font-family: Tahoma;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 220px;
+}
+
+.logoBlue {
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.imgProf {
+    height: 200px;
+    float: right;
+    margin-top: -160px;
+
+}
